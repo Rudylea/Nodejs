@@ -5,7 +5,7 @@ const {Configuration, OpenAIApi} = require("openai");
 
 const app =express();
 
-app.use(cors({origin:'null'}));
+app.use(cors({origin:'https://rudylea.github.io/GPTQuiz/'}));
 app.use(express.json());
 
 const configuration = new Configuration({
