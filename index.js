@@ -41,7 +41,7 @@ app.post("/letschat", async(req,res) => {
     }
 });
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`);
